@@ -7,7 +7,7 @@ from scripts.migrate import migrate_data
 def main():
     # Step 1: Extract real emails and save features to data/emails.csv
     print("🔐 Fetching emails from your inbox...")
-    extract_email_features("thasneemmohammmed.64@gmail.com", "xopp isrh rdlk juea")  
+    extract_email_features("", "")  
 
     # Step 2: Preprocess the extracted features
     print("⚙️ Preprocessing data...")
