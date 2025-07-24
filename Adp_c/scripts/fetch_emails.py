@@ -1,4 +1,3 @@
-# scripts/fetch_emails.py
 import imaplib, email
 import pandas as pd
 from datetime import datetime, timedelta
@@ -41,5 +40,3 @@ def extract_email_features(username, password, num_emails=50):
     df.to_csv("data/emails.csv", index=False)
     print("✅ Email features extracted and saved to data/emails.csv")
 
-# Usage
-# extract_email_features("your_email@gmail.com", "your_password_or_app_password")
